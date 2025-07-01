@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jai Ganesh | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Hello, I'm <span class="highlight">Jai Ganesh</span></h1>
+            <p>A passionate full-stack developer crafting seamless, modern web experiences.</p>
+        </div>
+
+        <!-- About Me -->
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                I'm a dedicated developer with a strong foundation in both backend and frontend development.
+                My primary stack includes Python, Flask, and JavaScript, and I love building fast, accessible,
+                and intuitive web apps. I also enjoy designing UI/UX that simplifies complex interactions.
+            </p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>Python</li>
+                <li>Flask</li>
+                <li>Django</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>React (Basic)</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Git & GitHub</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section">
+            <h2>Projects</h2>
+            <p>Here are a few highlights of my recent work:</p>
+            <ul>
+                <li><strong>Flask Portfolio Site</strong> – A responsive personal portfolio with Flask and HTML/CSS.</li>
+                <li><strong>Student Dashboard</strong> – Flutter + Django app for managing student attendance, assignments & progress.</li>
+                <li><strong>AI Model Marketplace</strong> – A decentralized platform to demo, sell, and verify AI models.</li>
+            </ul>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <p>
+                B.E in Computer Science & Engineering<br>
+                <strong>Jaya Engineering College</strong><br>
+                2023 – 2027
+            </p>
+        </div>
+
+        <!-- Contact Button -->
+        <div class="section">
+            <a class="btn" href="{{ url_for('contact') }}">Contact Me</a>
+        </div>
+    </div>
+</body>
+</html>

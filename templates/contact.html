@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Have a question, collaboration, or just want to say hello? Feel free to reach out!</p>
+
+        <form method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your message..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <a class="btn" href="{{ url_for('index') }}">⬅ Back to Home</a>
+    </div>
+</body>
+</html>
