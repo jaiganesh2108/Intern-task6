@@ -1,10 +1,10 @@
-#Jai Ganesh - Personal Portfolio Website
+# Jai Ganesh - Personal Portfolio Website
 
 A modern, responsive personal portfolio built using **Python Flask**, **HTML5**, and **CSS3** with a professional purple-white theme. This project showcases skills, experience, projects, and includes a contact form for outreach.
 
 ---
 
-##Features
+## Features
 
 - Beautiful and responsive UI with a purple-white modern theme
 - Clean homepage with:
